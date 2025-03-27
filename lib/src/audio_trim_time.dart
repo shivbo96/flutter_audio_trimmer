@@ -3,5 +3,5 @@ class AudioTrimTime {
   final Duration end;
 
   AudioTrimTime({required this.start, required this.end})
-      : assert(start.inMilliseconds > end.inMilliseconds && start.inMilliseconds > 0);
+      : assert((start.inMilliseconds < end.inMilliseconds) && (end.inMilliseconds != 0));
 }
