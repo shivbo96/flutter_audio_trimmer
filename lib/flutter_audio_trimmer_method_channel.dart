@@ -73,7 +73,7 @@ class MethodChannelFlutterAudioTrimmer extends FlutterAudioTrimmerPlatform {
       '-ss',
       time.start.inSeconds.toDouble().toString(),
       '-t',
-      time.end.inSeconds.toDouble().toString(),
+      (time.end.inSeconds - time.start.inSeconds).toDouble().toString(),
       '-c',
       'copy',
       outputPath
