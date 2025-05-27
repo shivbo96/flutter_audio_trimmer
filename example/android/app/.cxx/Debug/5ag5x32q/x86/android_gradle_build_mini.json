@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/shivam-mishra/Documents/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/shivam-mishra/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/shivam-mishra/AndroidStudioProjects/flutter_audio_trimmer/example/android/app/.cxx/Debug/5ag5x32q/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/shivam-mishra/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/shivam-mishra/AndroidStudioProjects/flutter_audio_trimmer/example/android/app/.cxx/Debug/5ag5x32q/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
